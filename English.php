@@ -607,6 +607,8 @@ class English implements Language
             LangConstants::MINIGAME_ITEM_MAPS_LORE => '&r&7Right-click to vote for a map',
             LangConstants::MINIGAME_ITEM_REPLAY => '&r&b&lPlay Again &r&7(Right Click)',
             LangConstants::MINIGAME_ITEM_REPLAY_LORE => '&r&7Right-click to play another game!',
+            LangConstants::MINIGAME_ITEM_TEAMS => '&r&l%0Change Team &r&7(Right Click)',
+            LangConstants::MINIGAME_ITEM_TEAMS_LORE => '&r&7Right-click to select another team!',
 
             LangConstants::MINIGAME_FORMS_EXIT => '&l&cExit',
 
