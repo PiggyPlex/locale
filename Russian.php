@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 /**
  *   _   _  _____ ______                    _   _       _
  *  | \ | |/ ____|  ____|                  | | (_)     | |
@@ -17,9 +18,9 @@
  * @author k3ithos, matcracker, driesboy
  *
  */
-declare(strict_types=1);
 
 namespace NetherGames\NGEssentials\lang\locale;
+
 
 class Russian implements Language
 {

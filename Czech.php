@@ -22,15 +22,33 @@ declare(strict_types=1);
 namespace NetherGames\NGEssentials\lang\locale;
 
 
-interface Language
+class Czech implements Language
 {
-    public function translations(): array;
 
-    public function getName(): string;
+    public function translations() : array
+    {
+        return [];
+    }
 
-    public function getLocale(): string;
+    public function getName() : string
+    {
+        return "Czech";
+    }
 
-    public function getFlag(): string;
+    public function getLocale() : string
+    {
+        return "cs_cs";
+    }
 
-    public function getCredits(): string;
+    public function getFlag(): string
+    {
+        //when??
+        return ''; // return 'https://cdn.nethergames.org/img/flags/czechia.png';
+    }
+
+    public function getCredits(): string
+    {
+        return "Ragnok123";
+    }
+
 }
