@@ -182,7 +182,7 @@ class Czech implements Language
 
             LangConstants::FORMS_HANDLER_GUILD_CHAT_DISABLED => '&6Disabled guild chat. You now chat to all players',
             LangConstants::FORMS_HANDLER_GUILD_CHAT_ENABLED => '&6Enabled guild chat. You now chat to guild members only',
-            LangCOnstants::FORMS_HANDLER_PARTY_CHAT_DISABLED => '&6Disabled party chat. You now chat to all players',
+            LangConstants::FORMS_HANDLER_PARTY_CHAT_DISABLED => '&6Disabled party chat. You now chat to all players',
             LangConstants::FORMS_HANDLER_PARTY_CHAT_ENABLED => '&6Enabled party chat. You now chat to party members only',
             LangConstants::FORMS_HANDLER_PARTY_FULL => '&cYou have reached the maximum limit of members for your party',
             LangConstants::FORMS_HANDLER_REPORTER_NOT_REPORTED => "&cThat player can't be reported",
@@ -428,7 +428,7 @@ class Czech implements Language
             LangConstants::FORMS_SOCIAL_FRIENDS_SEND_RECEIVER => '&b%0 &arequested to be as your friend. Use Social Menu to accept or deny this request',
             LangConstants::FORMS_SOCIAL_FRIENDS_SEND_SENDER => '&aSent friend request to &b%0',
 
-            LangCOnstants::FORMS_SOCIAL_PARTY_MENU_TITLE => 'Party Menu',
+            LangConstants::FORMS_SOCIAL_PARTY_MENU_TITLE => 'Party Menu',
             LangConstants::FORMS_SOCIAL_PARTY_MENU_CREATE => '&eCreate a party',
             LangConstants::FORMS_SOCIAL_PARTY_MENU_PUBLIC => '&ePublic parties\n&7Available parties: %0',
             LangConstants::FORMS_SOCIAL_PARTY_MENU_PUBLIC_TITLE => '&ePublic parties',
