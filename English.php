@@ -41,7 +41,7 @@ class English implements Language
             LangConstants::COMMAND_CHATFX_COLOUR_SELECT => '&aYou selected %0 %1 &aas your chat colour',
             LangConstants::COMMAND_CHATFX_HIGHER_TIER => '&cYour tier is not superior enough to use this feature',
             LangConstants::COMMAND_RESERVED_STAFF => '&cThat command is available only for &eNether&6Games &cstaff',
-            LangConstants::COMMAND_RESERVED_STAFF => '&cThat command is available only for &eNether&6Games &cexecutive staff',
+            LangConstants::COMMAND_RESERVED_ESTAFF => '&cThat command is available only for &eNether&6Games &cexecutive staff',
             LangConstants::COMMAND_PING => '&6Your ping to the server (&b%0&6) is currently %1ms',
             LangConstants::COMMAND_RECONNECT_BW => '&cThe last server you were detected to be playing on is not a BW server',
             LangConstants::COMMAND_RECONNECT_NOT_FOUND => '&cThe last server you were detected to be playing on is not available',
@@ -185,9 +185,6 @@ class English implements Language
             LangCOnstants::FORMS_HANDLER_PARTY_CHAT_DISABLED => '&6Disabled party chat. You now chat to all players',
             LangConstants::FORMS_HANDLER_PARTY_CHAT_ENABLED => '&6Enabled party chat. You now chat to party members only',
             LangConstants::FORMS_HANDLER_PARTY_FULL => '&cYou have reached the maximum limit of members for your party',
-            LangConstants::FORMS_HANDLER_REPORTER_NOT_REPORTED => "&cThat player can't be reported",
-            LangConstants::FORMS_HANDLER_REPORTER_REPORTED => '&6You reported &b%0 &6for &c%1',
-            LangConstants::FORMS_HANDLER_REPORTER_STAFF_MESSAGE => '&b%0 &6has been reported by %1 for &c%2',
             LangConstants::FORMS_HANDLER_SETTINGS_ALLOWING => 'allowing',
             LangConstants::FORMS_HANDLER_SETTINGS_BLOCKING => 'blocking',
             LangConstants::FORMS_HANDLER_SETTINGS_DISABLED => 'Disabled',
@@ -217,8 +214,6 @@ class English implements Language
             LangConstants::FORMS_HANDLER_REPORTER_NOT_REPORTED => '&cThis player cannot be reported',
             LangConstants::FORMS_HANDLER_REPORTER_STAFF_MESSAGE => '&b%0 &6has been reported by %1 for &c%2',
 
-            LangConstants::FORMS_SOCIAL_PARTY_MENU_TITLE => '§9Party Manager',
-            LangConstants::FORMS_SOCIAL_PARTY_MENU_MEMBERS_INVITE_MORE => 'Invite more players:',
             LangConstants::FORMS_SOCIAL_PARTY_NOT_VOTER => '§cSorry, you need to vote for NetherGames to use this function!',
             LangConstants::FORMS_SOCIAL_PARTY_NOT_VOTER_2 => "§bVote for us at §engmc.co/v§b, then press §6'Submit'§b to confirm your vote or simply run §6/vote",
             LangConstants::FORMS_REPORTER => '§cReporter',
@@ -640,12 +635,6 @@ class English implements Language
             LangConstants::MINIGAME_MAP_VOTED => '&aYou voted for &6%0',
             LangConstants::MINIGAME_MAP_RUNNING => '&cYou cannot vote for the map now - the game is starting'
         ];
-    }
-
-
-    public function oldtranslations(): array
-    {
-        return [];
     }
 
     public function getLocale(): string

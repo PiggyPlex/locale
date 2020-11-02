@@ -313,7 +313,7 @@ class LangConstants
     const FORMS_SOCIAL_GUILD_MEMBER_TITLE = 'forms.social.guild.member.title';
     const FORMS_SOCIAL_GUILD_MEMBER_PROMOTE_TO_LEADER = 'forms.social.guild.member.promote.to.leader';
     const FORMS_SOCIAL_GUILD_MEMBER_DEMOTE_TO_MEMBER = 'forms.social.guild.member.demote.to.member';
-    const FORMS_SOCIAL_GUILD_MEMBER_PROMOTE_TO_OFFICER = 'forms.social.guild.member.promote.to.leader';
+    const FORMS_SOCIAL_GUILD_MEMBER_PROMOTE_TO_OFFICER = 'forms.social.guild.member.promote.to.officer';
     const FORMS_SOCIAL_GUILD_MEMBER_KICK = 'forms.social.guild.member.kick';
 
     const GUILD_LOW_LEVEL = 'guild.low.level';

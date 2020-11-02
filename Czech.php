@@ -41,7 +41,7 @@ class Czech implements Language
             LangConstants::COMMAND_CHATFX_COLOUR_SELECT => '&aVybral jsi barvu %0 %1 &ajako hlavní barvu chatu',
             LangConstants::COMMAND_CHATFX_HIGHER_TIER => '&cNemáš dostatečně vysoký tier pro použití této věci',
             LangConstants::COMMAND_RESERVED_STAFF => '&cTento příkaz je dostupný jen pro adminy &eNether&6Games',
-            LangConstants::COMMAND_RESERVED_STAFF => '&cTento příkaz je dostupný jen pro vedení &eNether&6Games',
+            LangConstants::COMMAND_RESERVED_ESTAFF => '&cTento příkaz je dostupný jen pro vedení &eNether&6Games',
             LangConstants::COMMAND_PING => '&6Tvůj ping na serveru (&b%0&6) je %1ms',
             LangConstants::COMMAND_RECONNECT_BW => '&cPoslední server, kde jsi byl naposledy není BW server',
             LangConstants::COMMAND_RECONNECT_NOT_FOUND => '&cPoslední server, kde jsi byl naposledy je nedostupný',
@@ -213,12 +213,7 @@ class Czech implements Language
             LangConstants::FORMS_HANDLER_SETTINGS_RANK_SHOWING => '&aYour rank is now &bshowing',
             LangConstants::FORMS_HANDLER_SETTINGS_SHOWING => 'showing',
             LangConstants::FORMS_HANDLER_SWITCHER_NOT_EXIST => "&cAn account with that username doesn't exist, please try again.",
-            LangConstants::FORMS_HANDLER_REPORTER_REPORTED => '&aYou have successfully reported &b%0 &cfor &a%1',
-            LangConstants::FORMS_HANDLER_REPORTER_NOT_REPORTED => '&cThis player cannot be reported',
-            LangConstants::FORMS_HANDLER_REPORTER_STAFF_MESSAGE => '&b%0 &6has been reported by %1 for &c%2',
 
-            LangConstants::FORMS_SOCIAL_PARTY_MENU_TITLE => '§9Party Manager',
-            LangConstants::FORMS_SOCIAL_PARTY_MENU_MEMBERS_INVITE_MORE => 'Invite more players:',
             LangConstants::FORMS_SOCIAL_PARTY_NOT_VOTER => '§cSorry, you need to vote for NetherGames to use this function!',
             LangConstants::FORMS_SOCIAL_PARTY_NOT_VOTER_2 => "§bVote for us at §engmc.co/v§b, then press §6'Submit'§b to confirm your vote or simply run §6/vote",
             LangConstants::FORMS_REPORTER => '§cReporter',
@@ -654,8 +649,7 @@ class Czech implements Language
 
     public function getFlag(): string
     {
-        //when??
-        return ''; // return 'https://cdn.nethergames.org/img/flags/czechia.png';
+        return 'https://cdn.nethergames.org/img/flags/czechrepublic.png';
     }
 
     public function getCredits(): string
