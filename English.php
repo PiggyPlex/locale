@@ -93,6 +93,8 @@ class English implements Language
             LangConstants::COMMAND_VOTE_SLOWDOWN => "&cWow wow, slow down, we're checking votes for you already!",
             LangConstants::COMMAND_SOCIAL_NOT_SUPPORTED => '&cThis server does not support social features',
 
+            LangConstants::DOUBLE_XP => 'Double XP weekend',
+
             LangConstants::PROFANITY_QUICK => '&cCalm down, don\'t chat too quickly',
             LangConstants::PROFANITY_ADVERTISE => '&cAdvertising is not allowed',
 
@@ -408,6 +410,7 @@ class English implements Language
             LangConstants::FORMS_SOCIAL_FRIENDS_SUMMARY_UNFRIEND_TITLE => '&cRemove friend',
             LangConstants::FORMS_SOCIAL_FRIENDS_SUMMARY_UNFRIEND_CONTENT => 'Do you want to remove %0 as a friend?',
             LangConstants::FORMS_HANDLER_SOCIAL_FRIENDS_SUMMARY_UNFRIEND => '&You have successfuly removed &b%0 &aas a friend',
+            LangConstants::FORMS_HANDLER_SOCIAL_FRIENDS_SUMMARY_UNFRIEND_RECEIVER => '&b%0 %cremoved you as a friend',
             LangConstants::FORMS_SOCIAL_FRIENDS_REQUESTS_TITLE => 'Friend requests',
             LangConstants::FORMS_SOCIAL_FRIENDS_REQUESTS_CONTENT => 'You currently have %0 pending friend requests:',
             LangConstants::FORMS_SOCIAL_FRIENDS_REQUESTS_AOD => '&e%0\n&7Accept or deny request',
@@ -427,6 +430,7 @@ class English implements Language
             LangConstants::FORMS_SOCIAL_FRIENDS_SEND_BLOCKED => '&b%0 &chas blocked friend requests. Ask them to allow friend requests to add them as a friend',
             LangConstants::FORMS_SOCIAL_FRIENDS_SEND_RECEIVER => '&b%0 &arequested to be as your friend. Use Social Menu to accept or deny this request',
             LangConstants::FORMS_SOCIAL_FRIENDS_SEND_SENDER => '&aSent friend request to &b%0',
+
 
             LangConstants::FORMS_SOCIAL_PARTY_MENU_TITLE => 'Party Menu',
             LangConstants::FORMS_SOCIAL_PARTY_MENU_CREATE => '&eCreate a party',
@@ -488,7 +492,7 @@ class English implements Language
 
             LangConstants::FORMS_SOCIAL_GUILD_MENU_TITLE => 'Guild Menu',
             LangConstants::FORMS_SOCIAL_GUILD_MENU_MEMBERS => '&eGuild members\n&7Online: &a%0 &7| Members: &a%1/%2',
-            LangConstants::FORMS_SOCIAL_GUILD_MENU_STATS => 'Guild statistics',
+            LangConstants::FORMS_SOCIAL_GUILD_MENU_STATS => '&eGuild statistics',
             LangConstants::FORMS_SOCIAL_GUILD_MENU_STATS_XP => '&6%0 XP required to reach next level',
             LangConstants::FORMS_SOCIAL_GUILD_MENU_MEMBERS_INVITE => 'Invite player',
             LangConstants::FORMS_SOCIAL_GUILD_MENU_MEMBERS_INVITE_MORE => 'Invite more players: ',

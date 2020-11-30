@@ -196,6 +196,7 @@ class LangConstants
     const FORMS_SOCIAL_FRIENDS_SUMMARY_UNFRIEND_TITLE = 'forms.social.friends.summary.unfriend.title';
     const FORMS_SOCIAL_FRIENDS_SUMMARY_UNFRIEND_CONTENT = 'forms.social.friends.summary.unfriend.content';
     const FORMS_HANDLER_SOCIAL_FRIENDS_SUMMARY_UNFRIEND = 'messages.social.friends.summary.unfriend';
+    const FORMS_HANDLER_SOCIAL_FRIENDS_SUMMARY_UNFRIEND_RECEIVER = 'messages.social.friends.summary.unfriend.received';
     const FORMS_SOCIAL_FRIENDS_SUMMARY_SPECTATE = 'forms.social.friends.summary.spectate';
     const FORMS_HANDLER_SOCIAL_FRIENDS_SUMMARY_SPECTATE = 'messages.social.friends.summary.spectate';
     const FORMS_SOCIAL_FRIENDS_REQUESTS_TITLE = 'forms.social.friends.requests.title';
