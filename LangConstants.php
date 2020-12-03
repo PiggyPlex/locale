@@ -23,19 +23,6 @@ namespace NetherGames\NGEssentials\lang\locale;
 
 class LangConstants
 {
-
-    const COMMAND_CHAT_CHANGE = 'command.chat.change';
-    const COMMAND_CHAT_ENABLE = 'command.chat.enable';
-    const COMMAND_CHAT_DISABLE = 'command.chat.disable';
-    const COMMAND_CHAT_PUBLIC = 'command.chat.public';
-    const COMMAND_CHAT_USAGE = 'command.chat.usage';
-    const COMMAND_CHAT_USAGE_NOTHING = 'command.chat.usage.nothing';
-    const COMMAND_CHAT_USAGE_PARTY = 'command.chat.usage.party';
-    const COMMAND_CHATFX_AVAILABLE_COLOURS = 'command.chatfx.available.commands';
-    const COMMAND_CHATFX_USAGE = 'command.chatfx.usage';
-    const COMMAND_CHATFX_COLOUR_SELECT = 'command.chatfx.colour.select';
-    const COMMAND_CHATFX_COLOUR_NOT_EXIST = 'command.chatfx.colour.not.exist';
-    const COMMAND_CHATFX_HIGHER_TIER = 'command.chatfx.colour.higher.tier';
     const COMMAND_RESERVED_STAFF = 'command.reserved.staff';
     const COMMAND_RESERVED_ESTAFF = 'command.reserved.estaff';
     const COMMAND_CI_NO_PERM = 'command.ci.noperm';
@@ -165,6 +152,11 @@ class LangConstants
     const FORMS_HANDLER_SETTINGS_RANK_HIDING = 'forms.handler.settings.rank.hiding';
     const FORMS_HANDLER_SETTINGS_SHOWING = 'forms.handler.settings.showing';
     const FORMS_HANDLER_SWITCHER_NOT_EXIST = 'forms.handler.switcher.not.exist';
+
+    const FORMS_CHAT_TYPE = 'forms.chat.type';
+    const FORMS_HANDLER_CHAT_TYPE = 'forms.handler.chat.type';
+    const FORMS_CHAT_COLOR = 'forms.chat.color';
+    const FORMS_HANDLER_CHAT_COLOR = 'forms.handler.chat.color';
 
     const FORMS_SOCIAL = 'forms.social';
     const FORMS_SOCIAL_INVITED = 'forms.social.invited';

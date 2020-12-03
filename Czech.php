@@ -28,18 +28,6 @@ class Czech implements Language
     public function translations() : array
     {
         return [
-            LangConstants::COMMAND_CHAT_CHANGE => '&6Byl vypnut%0 chat a také zapnut %1 chat. Teď mluvíš jen k příslušníkům %1 chatu',
-            LangConstants::COMMAND_CHAT_ENABLE => '&6Byl zapnut %0 chat. Teď mluvíš jen k příslušníkům %0 chatu',
-            LangConstants::COMMAND_CHAT_DISABLE => '&6Byl vypnut %0 chat. Teď mluvíš ke všem',
-            LangConstants::COMMAND_CHAT_PUBLIC => "&cOmlouváme se, ale furt jsi v obecném chatu",
-            LangConstants::COMMAND_CHAT_USAGE => '&cSpusť &6/c [%0] &caby zapnout specifický chat',
-            LangConstants::COMMAND_CHAT_USAGE_NOTHING => '&cOmlouváme se, ale nemůžeš změnit chat pokud jsi v party',
-            LangConstants::COMMAND_CHAT_USAGE_PARTY => '&cJoooo! Použij &6/c party &caby zapnout party chat, nebo použij &6/c off &cpro vypnutí party chatu',
-            LangConstants::COMMAND_CHATFX_AVAILABLE_COLOURS => '&e--- §bDostupné barvy &e---',
-            LangConstants::COMMAND_CHATFX_USAGE => '&bPoužij &6/chatfx &c<barva> &bpro nastavení barvy chatu',
-            LangConstants::COMMAND_CHATFX_COLOUR_NOT_EXIST => '&cTato barva neexistuje',
-            LangConstants::COMMAND_CHATFX_COLOUR_SELECT => '&aVybral jsi barvu %0 %1 &ajako hlavní barvu chatu',
-            LangConstants::COMMAND_CHATFX_HIGHER_TIER => '&cNemáš dostatečně vysoký tier pro použití této věci',
             LangConstants::COMMAND_RESERVED_STAFF => '&cTento příkaz je dostupný jen pro adminy &eNether&6Games',
             LangConstants::COMMAND_RESERVED_ESTAFF => '&cTento příkaz je dostupný jen pro vedení &eNether&6Games',
             LangConstants::COMMAND_PING => '&6Tvůj ping na serveru (&b%0&6) je %1ms',
@@ -138,6 +126,11 @@ class Czech implements Language
             LangConstants::FORMS_BUTTON_YES_RED => '&cAno',
             LangConstants::FORMS_BUTTON_NO_GREEN => '&aNe',
             LangConstants::FORMS_BUTTON_NO_RED => '&cNe',
+
+            LangConstants::FORMS_CHAT_TYPE => 'Typ chatu',
+            LangConstants::FORMS_HANDLER_CHAT_TYPE => '&aZapnul jsi &b%0 &achat',
+            LangConstants::FORMS_CHAT_COLOR => 'Barva chatu',
+            LangConstants::FORMS_HANDLER_CHAT_COLOR => '&aVybral jsi barvicku %0 pro tvuj chat',
 
             LangConstants::FORMS_PROFILE_RULES_1 => '§aVítej na §eNether§6Games§a.',
             LangConstants::FORMS_PROFILE_RULES_2 => '§eNether§6Games §bje komunitní server s minihry pro milovníky Minecraftu pro všechny věkové kategorie',

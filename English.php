@@ -28,18 +28,6 @@ class English implements Language
     public function translations() : array
     {
         return [
-            LangConstants::COMMAND_CHAT_CHANGE => '&6Disabled %0 chat and enabled %1 chat. You now chat to %1 members only',
-            LangConstants::COMMAND_CHAT_ENABLE => '&6Enabled %0 chat. You now chat to %0 members only',
-            LangConstants::COMMAND_CHAT_DISABLE => '&6Disabled %0 chat. You now chat to all players',
-            LangConstants::COMMAND_CHAT_PUBLIC => "&cSorry, but you're already in public chat",
-            LangConstants::COMMAND_CHAT_USAGE => '&cRun &6/c [%0] &cto enable specific chat',
-            LangConstants::COMMAND_CHAT_USAGE_NOTHING => '&cSorry, but you cannot switch chats while you are not in a party',
-            LangConstants::COMMAND_CHAT_USAGE_PARTY => '&cWoohoo! Run &6/c party &cto enable party chat, or run &6/c off &cto disable party chat',
-            LangConstants::COMMAND_CHATFX_AVAILABLE_COLOURS => '&e--- §bAvailable chat colours &e---',
-            LangConstants::COMMAND_CHATFX_USAGE => '&bUse &6/chatfx &c<colour> &bto set your desired chat colour',
-            LangConstants::COMMAND_CHATFX_COLOUR_NOT_EXIST => '&cThat colour doesn\'t exist',
-            LangConstants::COMMAND_CHATFX_COLOUR_SELECT => '&aYou selected %0 %1 &aas your chat colour',
-            LangConstants::COMMAND_CHATFX_HIGHER_TIER => '&cYour tier is not superior enough to use this feature',
             LangConstants::COMMAND_RESERVED_STAFF => '&cThat command is available only for &eNether&6Games &cstaff',
             LangConstants::COMMAND_RESERVED_ESTAFF => '&cThat command is available only for &eNether&6Games &cexecutive staff',
             LangConstants::COMMAND_PING => '&6Your ping to the server (&b%0&6) is currently %1ms',
@@ -140,6 +128,11 @@ class English implements Language
             LangConstants::FORMS_BUTTON_YES_RED => '&cYes',
             LangConstants::FORMS_BUTTON_NO_GREEN => '&aNo',
             LangConstants::FORMS_BUTTON_NO_RED => '&cNo',
+
+            LangConstants::FORMS_CHAT_TYPE => 'Chat Type',
+            LangConstants::FORMS_HANDLER_CHAT_TYPE => '&aEnabled &b%0 &achat',
+            LangConstants::FORMS_CHAT_COLOR => 'Chat Color',
+            LangConstants::FORMS_HANDLER_CHAT_COLOR => '&aYou have selected %0 as your chat color',
 
             LangConstants::FORMS_PROFILE_RULES_1 => '§aWelcome to §eNether§6Games§a.',
             LangConstants::FORMS_PROFILE_RULES_2 => '§eNether§6Games §bis a community-based server network with a wide variety of games to entertain Minecraft players of all ages.',
