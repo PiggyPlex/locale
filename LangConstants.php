@@ -53,30 +53,9 @@ class LangConstants
     const COMMAND_STATS_CREDITS = 'command.stats.credits';
     const COMMAND_STATS_LEVEL = 'command.stats.level';
     const COMMAND_STATS_XP = 'command.stats.xp';
-    const COMMAND_TP_SPECIFY = 'command.tp.specify';
-    const COMMAND_TP_HERE_ACCEPTED_RECEIVER = 'command.tp.here.accepted.receiver';
-    const COMMAND_TP_HERE_ACCEPTED_SENDER = 'command.tp.here.accepted.sender';
-    const COMMAND_TP_HERE_DECLINED_RECEIVER = 'command.tp.here.declined.receiver';
-    const COMMAND_TP_HERE_DECLINED_SENDER = 'command.tp.here.declined.sender';
-    const COMMAND_TP_HERE_NO_PERM = 'command.tp.here.no.perm';
-    const COMMAND_TP_HERE_NO_REQUESTS = 'command.tp.here.no.requests';
-    const COMMAND_TP_HERE_RECEIVE = 'command.tp.here.receive';
-    const COMMAND_TP_HERE_SEND = 'command.tp.here.send';
-    const COMMAND_TP_TO_ACCEPTED_RECEIVER = 'command.tp.to.accepted.receiver';
-    const COMMAND_TP_TO_ACCEPTED_SENDER = 'command.tp.to.accepted.sender';
-    const COMMAND_TP_TO_DECLINED_RECEIVER = 'command.tp.to.declined.receiver';
-    const COMMAND_TP_TO_DECLINED_SENDER = 'command.tp.to.declined.sender';
-    const COMMAND_TP_TO_NO_PERM = 'command.tp.to.no.perm';
-    const COMMAND_TP_TO_NO_REQUESTS = 'command.tp.to.no.requests';
-    const COMMAND_TP_TO_RECEIVE = 'command.tp.to.receive';
-    const COMMAND_TP_TO_SEND = 'command.tp.to.send';
-    const COMMAND_VANISH_ENABLED = 'command.vanish.enabled';
-    const COMMAND_VANISH_DISABLED = 'command.vanish.disabled';
-    const COMMAND_VANISH_NO_PERM = 'command.vanish.no.perm';
     const COMMAND_VOTE_SLOWDOWN = 'command.vote.slowdown';
 
     const COMMAND_SOCIAL_NOT_SUPPORTED = 'command.social.not.supported';
-    const DATABASE_NOT_SAVED = 'database.not.saved';
     const DATABASE_ERROR = 'database.error';
     const MESSAGE_REPORT = 'message.report';
 
@@ -88,8 +67,8 @@ class LangConstants
 
     const ITEM_REPORTER = 'item.reporter';
     const ITEM_REPORTER_LORE = 'item.reporter.lore';
-    const ITEM_COSMETIC = 'item.cosmetic';
-    const ITEM_COSMETIC_LORE = 'item.cosmetic.lore';
+    const ITEM_UTILITY = 'item.cosmetic';
+    const ITEM_UTILITY_LORE = 'item.cosmetic.lore';
     const ITEM_TELEPORTER = 'item.teleporter';
     const ITEM_TELEPORTER_LORE = 'item.teleporter.lore';
     const ITEM_SOCIAL = 'item.social';
@@ -119,11 +98,6 @@ class LangConstants
     const COSMETICS_NOT_ENOUGH_KEYS = 'cosmetics.not.enough.keys';
     const COSMETICS_ALL = 'cosmetics.all';
 
-    const FORMS_HANDLER_GUILD_CHAT_ENABLED = 'forms.handler.guild.chat.enabled';
-    const FORMS_HANDLER_GUILD_CHAT_DISABLED = 'forms.handler.guild.chat.disabled';
-    const FORMS_HANDLER_PARTY_CHAT_ENABLED = 'forms.handler.party.chat.enabled';
-    const FORMS_HANDLER_PARTY_CHAT_DISABLED = 'forms.handler.party.chat.disabled';
-    const FORMS_HANDLER_PARTY_FULL = 'forms.handler.party.full';
     const FORMS_HANDLER_REPORTER_NOT_REPORTED = 'forms.handler.reporter.not.reported';
     const FORMS_HANDLER_REPORTER_REPORTED = 'forms.handler.reporter.reported';
     const FORMS_HANDLER_REPORTER_STAFF_MESSAGE = 'forms.handler.reporter.staff.message';
@@ -151,7 +125,6 @@ class LangConstants
     const FORMS_HANDLER_SETTINGS_RANK_SHOWING = 'forms.handler.settings.rank.showing';
     const FORMS_HANDLER_SETTINGS_RANK_HIDING = 'forms.handler.settings.rank.hiding';
     const FORMS_HANDLER_SETTINGS_SHOWING = 'forms.handler.settings.showing';
-    const FORMS_HANDLER_SWITCHER_NOT_EXIST = 'forms.handler.switcher.not.exist';
 
     const FORMS_CHAT_TYPE = 'forms.chat.type';
     const FORMS_HANDLER_CHAT_TYPE = 'forms.handler.chat.type';
