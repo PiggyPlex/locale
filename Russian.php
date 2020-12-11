@@ -150,7 +150,6 @@ class Russian implements Language
             LangConstants::FORMS_PROFILE_DEATHS => '&bDeaths: %0',
             LangConstants::FORMS_PROFILE_LEVEL => '&bLevel: %0',
             LangConstants::FORMS_PROFILE_CREDITS => '&bCredits: %0',
-            LangConstants::FORMS_PROFILE_STATS => '&bYour stats:',
             LangConstants::FORMS_PROFILE_XP => '&bXP: %0',
 
             LangConstants::FORMS_HANDLER_SETTINGS_ALLOWING => 'allowing',
@@ -181,8 +180,6 @@ class Russian implements Language
             LangConstants::FORMS_HANDLER_REPORTER_NOT_REPORTED => '&cThis player cannot be reported',
             LangConstants::FORMS_HANDLER_REPORTER_STAFF_MESSAGE => '&b%0 &6has been reported by %1 for &c%2',
 
-            LangConstants::FORMS_SOCIAL_PARTY_NOT_VOTER => '§cSorry, you need to vote for NetherGames to use this function!',
-            LangConstants::FORMS_SOCIAL_PARTY_NOT_VOTER_2 => "§bVote for us at §engmc.co/v§b, then press §6'Submit'§b to confirm your vote or simply run §6/vote",
             LangConstants::FORMS_REPORTER => '§cReporter',
 
             LangConstants::FORMS_SETTINGS_TITLE => '&bSettings',
@@ -257,21 +254,14 @@ class Russian implements Language
             LangConstants::STATS_KILL => 'Kills',
             LangConstants::STATS_BOOST => 'boost (%0 in game)',
             LangConstants::STATS_BOOST_VOTER => 'boost (Voter reward)',
-            LangConstants::STATS_XP_REQUIRED => ' &6XP required to reach next level',
 
             LangConstants::PLAYER_OFFLINE => "&cThat player isn't online.",
             LangConstants::PLAYER_NOT_EXIST => '&cThat player doesn\'t exist',
-            LangConstants::PLAYER_NO_LONGER => '&b%0 &cis no longer on this server',
             LangConstants::KICK_ALREADY => '&o&l&eN&6G&r&7: &cYour account is already logged onto the network. Please try again later',
-            LangConstants::KICK_MAINTENANCE => '§o§l§eN§6G§r§7: §cMaintenance in progress. Follow us on Twitter for updates - §6@NetherGamesMC',
-            LangConstants::KICK_OUTDATED_CLIENT => '§o§l§eN§6G§r§7: §cPlease update your client to the latest version to play §eNether§6Games§c.',
-            LangConstants::KICK_OUTDATED_SERVER => '§o§l§eN§6G§r§7: §eNether§6Games §chasn\'t updated to the latest version yet. Follow us on Twitter for updates - §6@NetherGamesMC',
             LangConstants::KICK_PROXY => '§o§l§eN§6G§r§7: §cUsing a proxy to play on §eNether§6Games §cis not allowed. Disable it to play!',
-            LangConstants::SERVER_FULL => "§o§l§eN§6G§r§7: §cLooks like §eNether§6Games §cis full, try again later!\nBuy the §l§aEMERALD§r §cor §l§bLEGEND§r §crank at §bngmc.co/store §cto join servers even if they're full!",
             LangConstants::SKIN_NOT_VALID_REJOIN => "&cYour skin is not valid to play on &eNether&6Games&c.\nPlease choose another one and rejoin.",
             LangConstants::IMPERSONATING_STAFF => '&cImpersonating staff members is not allowed.',
             LangConstants::NICKNAME_DISALLOWED => "&cYou're not allowed to use that name",
-            LangConstants::VOTE_ANNOUNCEMENT => '&o&l&eN&6G&r&7: &6%0 &bvoted for us at &cngmc.co/v &bthen ran &6/vote &band got a voter rank!',
             LangConstants::VOTE_CLAIMED => "&cYou've already voted and claimed your rewards today.",
             LangConstants::VOTE_CLAIMING => '&6Thanks for voting! Claiming your rewards...',
             LangConstants::VOTE_ERROR => '&cAn unknown error occurred while checking your vote status.',
@@ -286,11 +276,6 @@ class Russian implements Language
             LangConstants::PETS_RIDE_NO_PERM => "&cYou don't have permission to ride and control pets.\n&cYou can buy the &l&cTITAN&r §crank at &bngmc.co/store &cto ride them!",
             LangConstants::PARKOUR_NO_FLY => '&cYou can\'t enable flying while you\'re attempting the parkour',
 
-            LangConstants::NPC_OFFLINE => '&cOFFLINE',
-            LangConstants::NPC_PARTLY => '&6PARTLY ONLINE',
-            LangConstants::NPC_FULL => '&cFULL',
-            LangConstants::NPC_PLAYING => '&a%0 PLAYERS ONLINE',
-
             LangConstants::PLACE_1 => '&l&e1st Place &r&7- &b%0 - &e%1',
             LangConstants::PLACE_2 => '&l&62nd Place &r&7- &b%0 - &e%1',
             LangConstants::PLACE_3 => '&l&c3rd Place &r&7- &b%0 - &e%1',
@@ -298,21 +283,11 @@ class Russian implements Language
 
             LangConstants::FORMS_PUNISH_PERM => '&cYou don\'t have permissions to punish players',
 
-            LangConstants::CRATES_OPEN => '&aClick to open a crate!',
-            LangConstants::CRATES_FOUND_TITLE => '&6You found: %0',
-            LangConstants::CRATES_FOUND_TEXT => '&bType: %0',
-
             LangConstants::AFK_KICK => '&o&l&eN&6G&r&7: &cYou have been kicked for being inactive for a while. Buy the &l&aEMERALD &r&cor &l&bLEGEND &r&crank at &bngmc.co/store &cto remove this restriction!',
             LangConstants::AFK_INACTIVE => '&cYou have been transferred to the lobby for being inactive in a game. Credit farming is not allowed and offenders may be issued warnings.',
             LangConstants::AFK_INACTIVE_RANK => '&cYou have been transferred to the lobby for being inactive for a while. Buy the &l&aEMERALD &r&cor &l&bLEGEND &r&crank at &bngmc.co/store §cto remove this restriction!',
             LangConstants::NEAREST_PLAYER => '&6Closest player: &b%0 &6| Distance: &b%1',
             LangConstants::PLAYER_IN_QUEUE => '&6You are &b#%0 &6in the queue!',
-
-            LangConstants::SCOREBOARD_PLAYERS => 'Players: &a%0',
-            LangConstants::SCOREBOARD_LOBBY=> 'Lobby: &a#%0',
-            LangConstants::SCOREBOARD_KEYS => 'Keys: &a%0',
-            LangConstants::SCOREBOARD_CREDITS => 'Credits: &a%0',
-            LangConstants::SCOREBOARD_LEVEL => 'Level: %0',
 
             LangConstants::TRANSFER_QUEUE_JOIN => '&6The server is currently full and you have been placed in a queue. \n&6Buy the &l&aEMERALD&r &6or &l&bLEGEND&r &6rank at &bngmc.co/store &6to skip the queue!',
             LangConstants::TRANSFER_QUEUE_LEFT => '&aSuccessfully left the queue!',
@@ -330,8 +305,6 @@ class Russian implements Language
             LangConstants::PARKOUR_COMMAND => '&cYou can\'t run this command while you\'re attempting the parkour',
             LangConstants::PARKOUR_ABANDONED => '&aYou abandoned the parkour attempt',
 
-            LangConstants::PRESENTS_INCOMPLETE => '&l&bPresents: &7%0/%1',
-            LangConstants::PRESENTS_COMPLETE => '&l&bPresents: &aCompleted',
             LangConstants::PRESENTS_FOUND => '&aYou found a Present! &7($0/%1) %2 more presents to collect!',
             LangConstants::PRESENTS_FOUND_ALL => '&aFind all the presents to get a reward!',
             LangConstants::PRESENTS_FOUND_CAPE => '&aYou have received your new christmas cape',
@@ -354,7 +327,6 @@ class Russian implements Language
 
             LangConstants::FORMS_SOCIAL_INVITE_FRIEND => '&eAdd as friend\n&7Send request to %0',
             LangConstants::FORMS_SOCIAL_INVITE_PARTY => '&eInvite to party\n&7Invite %0 your party',
-            LangConstants::FORMS_SOCIAL_INVITE_GUILD => '&eInvite to guild\n&7Invite %0 to %1',
             LangConstants::FORMS_SOCIAL_VIEW_STATS => "&eCheck stats\n&7View %0's statistics",
             LangConstants::FORMS_HANDLER_SOCIAL_INVITE_NO_PERM => "&cYou don't have permission to add more friends! Buy a rank at &bngmc.co/store &cto add more!",
 
@@ -362,7 +334,6 @@ class Russian implements Language
             LangConstants::FORMS_SOCIAL_FRIENDS_MENU_LIST => '&eFriend list\n&7Online: &a%0 &7| Total: &a%1/%2',
             LangConstants::FORMS_SOCIAL_FRIENDS_MENU_ADD => '&eAdd friend',
             LangConstants::FORMS_SOCIAL_FRIENDS_MENU_REQUESTS => '&eFriend requests\n&7Current requests: &a%0',
-            LangConstants::FORMS_SOCIAL_FRIENDS_LIST_TITLE => 'Your friends',
             LangConstants::FORMS_SOCIAL_FRIENDS_LIST_ONLINE_HERE => '&e%0\n&aOnline on this server',
             LangConstants::FORMS_SOCIAL_FRIENDS_LIST_ONLINE_THERE => '&e%0\n%aOnline on %1',
             LangConstants::FORMS_SOCIAL_FRIENDS_LIST_OFFLINE => '&e%0\n&cOffline',
@@ -424,7 +395,6 @@ class Russian implements Language
             LangConstants::FORMS_SOCIAL_PARTY_MENU_DISBAND_TITLE => 'Disband the party',
             LangConstants::FORMS_SOCIAL_PARTY_MENU_DISBAND_CONTENT => 'Are you sure to disband the party?',
             LangConstants::FORMS_SOCIAL_PARTY_MENU_LEAVE => '&eLeave party',
-            LangConstants::FORMS_SOCIAL_PARTY_MENU_LEAVE_TITLE => 'Leave party',
             LangConstants::FORMS_SOCIAL_PARTY_MENU_LEAVE_CONTENT => 'Are you sure to leave %0\'s party?',
             LangConstants::FORMS_SOCIAL_PARTY_MEMBERS => 'Party members',
             LangConstants::FORMS_SOCIAL_PARTY_MEMBERS_LEADER => '&e%0 Party leader',
@@ -448,12 +418,10 @@ class Russian implements Language
             LangConstants::PARTY_LEAVE => '&b%0 &ahas left our party. Wish him good luck!',
             LangConstants::PARTY_STILL_IN_GAME => '&b%0 &cis still in a match! Please wait for them before you join another one!',
             LangConstants::PARTY_TRACKING => '&b%0 &cis tracking someone.Please wait for them to leave!',
-            LangConstants::PARTY_FULL_SLOTS => '&cThere are not enough slots to join.',
             LangConstants::PARTY_JOIN_GAME => "&cYou're currently in a party. Wait for your party host to decide which game to play!",
             LangConstants::PARTY_PROMOTED => '&6%0 &ahas been promoted to a party leader',
             LangConstants::PARTY_KICKED => '&cYou have been kicked from the party by &b%0&c.',
             LangConstants::PARTY_KICKED_MESSAGE => '&b%0 &6kicked &c%1 &6from the party.',
-            LangConstants::PARTY_NOT_IN => "&cYou're not in a party!",
 
             LangConstants::FORMS_SOCIAL_GUILD_MENU_TITLE => 'Guild Menu',
             LangConstants::FORMS_SOCIAL_GUILD_MENU_MEMBERS => '&eGuild members\n&7Online: &a%0 &7| Members: &a%1/%2',
@@ -480,7 +448,6 @@ class Russian implements Language
             LangConstants::FORMS_SOCIAL_GUILD_MENU_CREATE_TITLE => 'Create Guild',
             LangConstants::FORMS_SOCIAL_GUILD_MENU_CREATE_NAME => 'Enter you desired guild name:',
             LangConstants::FORMS_SOCIAL_GUILD_MENU_INVITES => '&eView invites\n&7Current invites: %0',
-            LangConstants::FORMS_SOCIAL_GUILD_MENU_INVITES_ACCEPT => '&7Join the %0 guild.',
             LangConstants::FORMS_SOCIAL_GUILD_MENU_INVITES_TITLE => 'Guild invites',
             LangConstants::FORMS_SOCIAL_GUILD_MEMBERS => 'Guild Members',
             LangConstants::FORMS_SOCIAL_GUILD_MEMBERS_LEADER => '&e%0\n&7Leader | ',
@@ -496,11 +463,8 @@ class Russian implements Language
             LangConstants::GUILD_LOW_LEVEL => 'cYour guild must be at least level %0 to use this feature!',
             LangConstants::GUILD_MOTD_SET => '&aYour guild motd has been set',
             LangConstants::GUILD_MOTD_RESET => '&aYour guild MOTD has been reset',
-            LangConstants::GUILD_MOTD_PERM => '&cYou\'re not allowed to say that',
             LangConstants::GUILD_TAG_CHARS => '&cYour guild tag can\'t be more than 6 characters long.',
-            LangConstants::GUILD_TAG_TERMS => '&cYou can\'t use that guild tag as it contains restricted terms.',
             LangConstants::GUILD_TAG_COLORS => '&aYour guild tag has been set to &l%0 &r&a!',
-            LangConstants::GUILD_NOT_IN => '&cYou\'re not in guild',
             LangConstants::GUILD_JOIN => '&aWelcome to the &b%0 &aguild!',
             LangConstants::GUILD_JOIN_PLAYERS => '&b%0 &ahas joined our guild',
             LangConstants::GUILD_LEAVE => '&aYou left &b%0 &aguild',
@@ -520,8 +484,6 @@ class Russian implements Language
             LangConstants::GUILD_INVITE_PLAYER => '&b%0 &6has invited you to join &b%1 &6guild! Use Social Menu to view invite',
             LangConstants::GUILD_DISBAND => '&aDisbanded the &b%0 &aguild!',
             LangConstants::GUILD_DISBAND_PLAYERS => '&b%0 &ahas disbanded the &b%1 &aguild',
-            LangConstants::GUILD_NAME_CHARS => '&cYour guild name may not exceed &b20 &ccharacters',
-            LangConstants::GUILD_NAME_ALPHANUMERIC => '&cYour guild name may only contain alphanumeric characters',
             LangConstants::GUILD_NAME_ALREADY => '&cA guild with that name already exists',
 
 
@@ -550,7 +512,6 @@ class Russian implements Language
             LangConstants::MINIGAME_PARTY_WAIT => '&cYou can\'t join another game while you\'re in a party. Wait for your party host to decide when to play again!',
 
             LangConstants::MINIGAME_SCOREBOARD_PLAYERS => 'Players: &a%0/%1',
-            LangConstants::MINIGAME_SCOREBOARD_MODE => 'Mode: &a%0',
             LangConstants::MINIGAME_SCOREBOARD_WAITING => 'Waiting...',
             LangConstants::MINIGAME_SCOREBOARD_STARTING => 'Starting in',
             LangConstants::MINIGAME_SCOREBOARD_STARTING_IN => 'Starting in &a%0s',

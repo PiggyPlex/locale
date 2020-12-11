@@ -150,7 +150,6 @@ class LangConstants
     const FORMS_SOCIAL_FRIENDS_MENU_LIST = 'forms.social.friends.menu.list';
     const FORMS_SOCIAL_FRIENDS_MENU_REQUESTS = 'forms.social.friends.menu.requests';
     const FORMS_SOCIAL_FRIENDS_MENU_ADD = 'forms.social.friends.menu.add';
-    const FORMS_SOCIAL_FRIENDS_LIST_TITLE = 'forms.social.friends.list.title';
     const FORMS_SOCIAL_FRIENDS_LIST_ONLINE_HERE = 'forms.social.friends.list.online.here';
     const FORMS_SOCIAL_FRIENDS_LIST_ONLINE_THERE = 'forms.social.friends.list.online.there';
     const FORMS_SOCIAL_FRIENDS_LIST_OFFLINE = 'forms.social.friends.list.offline';
@@ -211,22 +210,18 @@ class LangConstants
     const FORMS_SOCIAL_PARTY_MENU_DISBAND_TITLE = 'forms.social.party.menu.disband.title';
     const FORMS_SOCIAL_PARTY_MENU_DISBAND_CONTENT = 'forms.social.party.menu.disband.content';
     const FORMS_SOCIAL_PARTY_MENU_LEAVE = 'forms.social.party.menu.leave';
-    const FORMS_SOCIAL_PARTY_MENU_LEAVE_TITLE = 'forms.social.party.menu.leave.title';
     const FORMS_SOCIAL_PARTY_MENU_LEAVE_CONTENT = 'forms.social.party.menu.leave.content';
     const FORMS_SOCIAL_PARTY_MEMBERS = 'forms.social.party.members';
     const FORMS_SOCIAL_PARTY_MEMBERS_LEADER = 'forms.social.party.members.leader';
     const FORMS_SOCIAL_PARTY_MEMBERS_MEMBER = 'forms.social.party.members.member';
     const FORMS_SOCIAL_PARTY_MEMBERS_MEMBER_PROMOTE = 'forms.social.party.members.member.promote';
     const FORMS_SOCIAL_PARTY_MEMBERS_MEMBER_KICK = 'forms.social.party.members.member.kick';
-    const FORMS_SOCIAL_PARTY_NOT_VOTER = 'forms.social.party.not.voter';
-    const FORMS_SOCIAL_PARTY_NOT_VOTER_2 = 'forms.social.party.not.voter.2';
 
     const PARTY_ALREADY_IN_HOST = 'party.already.in.host';
     const PARTY_ALREADY_INVITED = 'party.already.invited';
     const PARTY_ENDED = 'party.ended';
     const PARTY_ENDED_HOST = 'party.ended.host';
     const PARTY_FULL = 'party.full';
-    const PARTY_FULL_SLOTS = 'party.full.slots';
     const PARTY_INVITED = 'party.invited';
     const PARTY_INVITE = 'party.invite';
     const PARTY_JOIN = 'party.join';
@@ -238,7 +233,6 @@ class LangConstants
     const PARTY_LEAVE_PLAYER = 'party.leave.player';
     const PARTY_MAX = 'party.max';
     const PARTY_NOT_HOSTING = 'party.not.hosting';
-    const PARTY_NOT_IN = 'party.not.in';
     const PARTY_STILL_IN_GAME = 'party.still.in.game';
     const PARTY_TRACKING = 'party.tracking';
     const PARTY_WELCOME = 'party.welcome';
@@ -270,7 +264,6 @@ class LangConstants
     const FORMS_SOCIAL_GUILD_MENU_CREATE_NAME = 'forms.social.guild.menu.create.name';
     const FORMS_SOCIAL_GUILD_MENU_INVITES = 'forms.social.guild.menu.invites';
     const FORMS_SOCIAL_GUILD_MENU_INVITES_TITLE = 'forms.social.guild.menu.invites.title';
-    const FORMS_SOCIAL_GUILD_MENU_INVITES_ACCEPT = 'forms.social.guild.menu.invites.accept';
     const FORMS_SOCIAL_GUILD_MEMBERS = 'forms.social.guild.members';
     const FORMS_SOCIAL_GUILD_MEMBERS_LEADER = 'forms.social.guild.members.leader';
     const FORMS_SOCIAL_GUILD_MEMBERS_OFFICER = 'forms.social.guild.members.officer';
@@ -285,11 +278,8 @@ class LangConstants
     const GUILD_LOW_LEVEL = 'guild.low.level';
     const GUILD_MOTD_SET = 'guild.motd.set';
     const GUILD_MOTD_RESET = 'guild.motd.reset';
-    const GUILD_MOTD_PERM = 'guild.motd.perm';
     const GUILD_TAG_CHARS = 'guild.tag.chars';
-    const GUILD_TAG_TERMS = 'guild.tag.terms';
     const GUILD_TAG_COLORS = 'guild.tag.colors';
-    const GUILD_NOT_IN = 'guild.not.in';
     const GUILD_JOIN = 'guild.join';
     const GUILD_JOIN_PLAYERS = 'guild.join.players';
     const GUILD_LEAVE = 'guild.leave';
@@ -309,16 +299,12 @@ class LangConstants
     const GUILD_INVITE_PLAYER = 'guild.invite.players';
     const GUILD_DISBAND = 'guild.disband';
     const GUILD_DISBAND_PLAYERS = 'guild.disband.players';
-    const GUILD_NAME_CHARS = 'guild.name.chars';
-    const GUILD_NAME_ALPHANUMERIC = 'guild.name.alphanumeric';
     const GUILD_NAME_ALREADY = 'guild.name.already';
 
     const FORMS_PUNISH_PERM = 'forms.punish.perm';
 
-    const FORMS_SOCIAL_INVITE_TITLE = 'forms.social.invite.title';
     const FORMS_SOCIAL_INVITE_FRIEND = 'forms.social.invite.friend';
     const FORMS_SOCIAL_INVITE_PARTY = 'forms.social.invite.party';
-    const FORMS_SOCIAL_INVITE_GUILD = 'forms.social.invite.guild';
     const FORMS_SOCIAL_VIEW_STATS = 'forms.social.view.stats';
     const FORMS_HANDLER_SOCIAL_INVITE_NO_PERM = 'messages.social.invite.no.perm';
 
@@ -360,7 +346,6 @@ class LangConstants
     const FORMS_PROFILE_KILLS = 'forms.profile.kills';
     const FORMS_PROFILE_DEATHS = 'forms.profile.deaths';
     const FORMS_PROFILE_LEVEL = 'forms.profile.level';
-    const FORMS_PROFILE_STATS = 'forms.profile.stats';
     const FORMS_PROFILE_XP = 'forms.profile.xp';
 
     const FORMS_REPORTER = 'forms.reporter';
@@ -418,18 +403,12 @@ class LangConstants
 
     const FORMS_SERVERS_HERE = 'forms.servers.here';
     const FORMS_SERVERS_CONNECT = 'forms.servers.connect';
-    
-    const FORMS_WARNINGS = 'forms.warnings';
-    const FORMS_WARNINGS_POINTS = 'forms.warnings.points';
-    const FORMS_WARNINGS_TIME = 'forms.warnings.time';
-    const FORMS_WARNINGS_REASON = 'forms.warnings.reason';
 
     const FORMS_BUTTON_BACK = 'forms.button.back';
     const FORMS_BUTTON_YES_GREEN = 'forms.button.yes.green';
     const FORMS_BUTTON_YES_RED = 'forms.button.yes.red';
     const FORMS_BUTTON_NO_GREEN = 'forms.button.no.green';
     const FORMS_BUTTON_NO_RED = 'forms.button.no.red';
-    const FORMS_BUTTON_SETTINGS = 'forms.button.settings';
     const FORMS_BUTTON_FULL = 'forms.button.full';
     
     const FORMS_MINIGAMES_BACK_TO_SPAWN = 'forms.minigames.back.to.spawn';
@@ -450,7 +429,6 @@ class LangConstants
     const STATS_KILL = 'stats.kill';
     const STATS_BOOST = 'stats.boost';
     const STATS_BOOST_VOTER = 'stats.boost.voter';
-    const STATS_XP_REQUIRED = 'stats.required';
     
     const WIN_STREAK_GAIN = 'win.streak.gain';
     const WIN_STREAK_ACHIEVE = 'win.streak.achieve';
@@ -461,15 +439,12 @@ class LangConstants
 
     const PLAYER_OFFLINE = 'player.offline';
     const PLAYER_NOT_EXIST = 'player.not.exist';
-    const PLAYER_NO_LONGER = 'player.no.longer';
-    const SERVER_FULL = 'server.full';
     const SKIN_NOT_VALID_REJOIN = 'skin.not.valid.rejoin';
     const IMPERSONATING_STAFF = 'impersonating.staff';
     const NICKNAME_DISALLOWED = 'nickname.disallowed';
     const TRANSFER_QUEUE_LEFT = 'transfer.queue.left';
     const TRANSFER_SERVER_OFFLINE = 'transfer.server.offline';
     const TRANSFER_QUEUE_JOIN = 'transfer.queue.join';
-    const VOTE_ANNOUNCEMENT = 'vote.announcement';
     const VOTE_CLAIMED = 'vote.claimed';
     const VOTE_CLAIMING = 'vote.claiming';
     const VOTE_ERROR = 'vote.error';
@@ -478,15 +453,9 @@ class LangConstants
     const WORLD_VOTE = 'world.vote';
 
     const KICK_PROXY = 'kick.proxy';
-    const KICK_OUTDATED_SERVER = 'kick.outdated.server';
-    const KICK_OUTDATED_CLIENT = 'kick.outdated.client';
     const KICK_ALREADY = 'kick.already';
-    const KICK_MAINTENANCE = 'kick.maintenance';
 
-    const PRESENTS_COMPLETE = 'presents.complete';
-    const PRESENTS_INCOMPLETE = 'presents.incomplete';
     const PRESENTS_FOUND = 'presents.found';
-    const PRESENTS_FOUND_MULTIPLE = 'presents.found.multiple';
     const PRESENTS_FOUND_ALL = 'presents.found.all';
     const PRESENTS_FOUND_CONGRATS = 'presents.found.congrats';
     const PRESENTS_FOUND_CAPE = 'presents.found.cape';
@@ -507,28 +476,13 @@ class LangConstants
 
     const SOMETHING_WRONG = 'something.wrong';
 
-    const NPC_PLAYING = 'npc.playing';
-    const NPC_FULL = 'npc.full';
-    const NPC_PARTLY = 'npc.partly';
-    const NPC_OFFLINE = 'npc.offline';
-
     const PLACE_1 = 'place.1';
     const PLACE_2 = 'place.2';
     const PLACE_3 = 'place.3';
     const PLACE_X = 'place.x';
 
-    const CRATES_OPEN = 'crates.open';
-    const CRATES_FOUND_TITLE = 'crates.found.title';
-    const CRATES_FOUND_TEXT = 'crates.found.text';
-
     const NEAREST_PLAYER = 'nearest.player';
     const PLAYER_IN_QUEUE = 'player.in.queue';
-
-    const SCOREBOARD_PLAYERS = 'scoreboard.players';
-    const SCOREBOARD_LOBBY = 'scoreboard.lobby';
-    const SCOREBOARD_KEYS = 'scoreboards.keys';
-    const SCOREBOARD_CREDITS = 'scoreboard.credits';
-    const SCOREBOARD_LEVEL = 'scoreboard.level';
     
     const REGION_LACK_PLAYER = 'region.lack.player';
     const REGION_FULL = 'region.full';
@@ -550,7 +504,6 @@ class LangConstants
     const MINIGAME_QUEUE_ANY = 'minigame.queue.any';
     const MINIGAME_QUEUE_ADD = 'minigame.queue.add';
     const MINIGAME_SCOREBOARD_PLAYERS = 'minigame.scoreboard.players';
-    const MINIGAME_SCOREBOARD_MODE = 'minigame.scoreboard.mode';
     const MINIGAME_SCOREBOARD_STARTING = 'minigame.scoreboard.starting';
     const MINIGAME_SCOREBOARD_STARTING_IN = 'minigame.scoreboard.starting.in';
     const MINIGAME_SCOREBOARD_WAITING = 'minigame.scoreboard.waiting';
@@ -589,7 +542,6 @@ class LangConstants
     const MINIGAME_TEAMS_SELECT_FULL = 'minigame.teams.select.full';
     const MINIGAME_TEAMS_SELECT_STARTING = 'minigame.teams.select.starting';
     const MINIGAME_TEAMS_PERM = 'minigame.teams.perm';
-    const MINIGAME_TEAMS_SEARCHING_FOR = 'minigame.teams.searching.for';
     const MINIGAME_FORMS_MAP_TITLE = 'minigame.forms.map.title';
     const MINIGAME_FORMS_MAP_CONTENT = 'minigame.forms.map.content';
 
