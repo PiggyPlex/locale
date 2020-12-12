@@ -41,7 +41,7 @@ class LangConstants
     const COMMAND_TELL_QUICK = 'command.tell.quick';
     const COMMAND_TELL_OFFLINE = 'command.tell.offline';
     const COMMAND_PING = 'command.ping';
-    const COMMAND_RECONNECT_BW = 'command.reconnect.bw';
+    const COMMAND_RECONNECT = 'command.reconnect';
     const COMMAND_RECONNECT_NOT_FOUND = 'command.reconnect.not.found';
     const COMMAND_STATS_PLAYER_INFO = 'command.stats.player.info';
     const COMMAND_STATS_ONLINE = 'command.stats.online';

@@ -30,7 +30,7 @@ class Russian implements Language
             LangConstants::COMMAND_RESERVED_STAFF => '&cЭта команда доступна только для администрации &eNether&6Games',
             LangConstants::COMMAND_RESERVED_ESTAFF => '&cЭта команда доступна только для управадминистрации &eNether&6Games',
             LangConstants::COMMAND_PING => '&6Твой пинг сейчас (&b%0&6) %1ms',
-            LangConstants::COMMAND_RECONNECT_BW => '&cПоследний сервер, где ты играл, не является сервером BW',
+            //LangConstants::COMMAND_RECONNECT_BW => '&cПоследний сервер, где ты играл, не является сервером BW',
             LangConstants::COMMAND_RECONNECT_NOT_FOUND => '&cПоследний сервер, где ты играл, сейчас не доступен',
             LangConstants::COMMAND_STATS_PLAYER_INFO => '&6Инфо о игроке (&b%0&6)',
             LangConstants::COMMAND_STATS_ONLINE => '&aСтатус: &2ОНЛАЙН',

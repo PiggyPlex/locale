@@ -31,7 +31,7 @@ class English implements Language
             LangConstants::COMMAND_RESERVED_STAFF => '&cThat command is available only for &eNether&6Games &cstaff',
             LangConstants::COMMAND_RESERVED_ESTAFF => '&cThat command is available only for &eNether&6Games &cexecutive staff',
             LangConstants::COMMAND_PING => '&6Your ping to the server (&b%0&6) is currently %1ms',
-            LangConstants::COMMAND_RECONNECT_BW => '&cThe last server you were detected to be playing on is not a BW server',
+            LangConstants::COMMAND_RECONNECT => '&cWe could not find any server to reconnect you to',
             LangConstants::COMMAND_RECONNECT_NOT_FOUND => '&cThe last server you were detected to be playing on is not available',
             LangConstants::COMMAND_STATS_PLAYER_INFO => '&6Player Info (&b%0&6)',
             LangConstants::COMMAND_STATS_ONLINE => '&aStatus: &2ONLINE',

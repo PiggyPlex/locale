@@ -31,7 +31,7 @@ class Czech implements Language
             LangConstants::COMMAND_RESERVED_STAFF => '&cTento příkaz je dostupný jen pro adminy &eNether&6Games',
             LangConstants::COMMAND_RESERVED_ESTAFF => '&cTento příkaz je dostupný jen pro vedení &eNether&6Games',
             LangConstants::COMMAND_PING => '&6Tvůj ping na serveru (&b%0&6) je %1ms',
-            LangConstants::COMMAND_RECONNECT_BW => '&cPoslední server, kde jsi byl naposledy není BW server',
+            //LangConstants::COMMAND_RECONNECT_BW => '&cPoslední server, kde jsi byl naposledy není BW server',
             LangConstants::COMMAND_RECONNECT_NOT_FOUND => '&cPoslední server, kde jsi byl naposledy je nedostupný',
             LangConstants::COMMAND_STATS_PLAYER_INFO => '&6Player Info (&b%0&6)',
             LangConstants::COMMAND_STATS_ONLINE => '&aStatus: &2ONLINE',
