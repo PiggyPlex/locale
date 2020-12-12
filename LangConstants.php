@@ -81,8 +81,6 @@ class LangConstants
     const ITEM_REPLAY_PAUSE_LORE = 'item.replay.pause.lore';
     const ITEM_NOCLIP = 'item.noclip';
     const ITEM_NOCLIP_LORE = 'item.noclip.lore';
-    const ITEM_BED = 'item.bed';
-    const ITEM_BED_LORE = 'item.bed.lore';
     const ITEM_SPECTATE = 'item.spectate';
     const ITEM_SPECTATE_LORE = 'item.spectate.lore';
     const ITEM_PARKOUR_BED = 'item.parkour.bed';
