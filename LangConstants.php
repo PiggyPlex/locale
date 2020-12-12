@@ -408,9 +408,9 @@ class LangConstants
     const FORMS_BUTTON_NO_GREEN = 'forms.button.no.green';
     const FORMS_BUTTON_NO_RED = 'forms.button.no.red';
     const FORMS_BUTTON_FULL = 'forms.button.full';
-    
+
     const FORMS_MINIGAMES_BACK_TO_SPAWN = 'forms.minigames.back.to.spawn';
-    
+
     const FORMS_TRACK_TITLE = 'forms.track.title';
     const FORMS_TRACK_SELECT_PLAYER = 'forms.track.select.player';
     const FORMS_TRACK_TP_TO = 'forms.track.tp.to';
@@ -427,7 +427,7 @@ class LangConstants
     const STATS_KILL = 'stats.kill';
     const STATS_BOOST = 'stats.boost';
     const STATS_BOOST_VOTER = 'stats.boost.voter';
-    
+
     const WIN_STREAK_GAIN = 'win.streak.gain';
     const WIN_STREAK_ACHIEVE = 'win.streak.achieve';
     const WIN_STREAK_LOST = 'win.streak.lost';
@@ -481,7 +481,7 @@ class LangConstants
 
     const NEAREST_PLAYER = 'nearest.player';
     const PLAYER_IN_QUEUE = 'player.in.queue';
-    
+
     const REGION_LACK_PLAYER = 'region.lack.player';
     const REGION_FULL = 'region.full';
     const REGION_FULL_RANK = 'region.full.rank';

@@ -25,7 +25,7 @@ namespace NetherGames\NGEssentials\lang\locale;
 class English implements Language
 {
 
-    public function translations() : array
+    public function translations(): array
     {
         return [
             LangConstants::COMMAND_RESERVED_STAFF => '&cThat command is available only for &eNether&6Games &cstaff',
@@ -513,10 +513,8 @@ class English implements Language
             LangConstants::MINIGAME_PARTY_ONE_NOT_HERE => "&cOne of your party members hasn't connected to this server. Joining the game...",
             LangConstants::MINIGAME_PARTY_WAIT => '&cYou can\'t join another game while you\'re in a party. Wait for your party host to decide when to play again!',
 
-            LangConstants::MINIGAME_SCOREBOARD_PLAYERS => 'Players: &a%0/%1',
-            LangConstants::MINIGAME_SCOREBOARD_WAITING => 'Waiting...',
-            LangConstants::MINIGAME_SCOREBOARD_STARTING => 'Starting in',
-            LangConstants::MINIGAME_SCOREBOARD_STARTING_IN => 'Starting in &a%0s',
+            LangConstants::MINIGAME_SCOREBOARD_WAITING => 'Waiting',
+            LangConstants::MINIGAME_SCOREBOARD_STARTING => 'Starting in &a%0s',
 
             LangConstants::MINIGAME_GAME_STARTS_IN => '&eGame starts in %0 &eseconds',
             LangConstants::MINIGAME_GAME_VOTING_ENDED => '&6Voting has ended!',
