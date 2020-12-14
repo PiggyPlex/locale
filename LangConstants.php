@@ -30,6 +30,7 @@ class LangConstants
     const COMMAND_MEGA_CREATIVE_NO_PERM = 'command.megacreative.noperm';
     const COMMAND_NOT_IN_LOBBY = 'command.command.notinlobby';
     const COMMAND_REPLY_NO_PERM = 'command.reply.noperm';
+    const COMMAND_REPLY_HAS_NOT = 'command.reply.has.not';
     const COMMAND_TELL_BLOCK = 'command.tell.block';
     const COMMAND_TELL_DENY = 'command.tell.deny';
     const COMMAND_TELL_RECEIVER = 'command.tell.receiver';
@@ -92,9 +93,38 @@ class LangConstants
     const ITEM_LOBBY = 'item.lobby';
     const ITEM_LOBBY_LORE = 'item.lobby.lore';
 
+    const UTILITIES_MENU = 'utilities.menu';
+    const UTILITIES_COSMETICS = 'utilities.cosmetics';
+    const UTILITIES_PETS = 'utilities.pets';
+    const UTILITIES_STORE = 'utilities.store';
+
     const COSMETICS_IN_USE = 'cosmetics.in.use';
     const COSMETICS_NOT_ENOUGH_KEYS = 'cosmetics.not.enough.keys';
     const COSMETICS_ALL = 'cosmetics.all';
+    const COSMETICS_OFF = ' cosmetics.off';
+    const COSMETICS_ON = 'cosmetics.on';
+    const COSMETICS_NO = 'cosmetics.no';
+    const COSMETICS_PARTICLES = 'cosmetics.particles';
+    const COSMETICS_PARTICLES_TRAILS = 'cosmetics.particles.trails';
+    const COSMETICS_PARTICLES_WINGS = 'cosmetics.particles.wings';
+    const COSMETICS_PARTICLES_PROJECTILES = 'cosmetics.particles.projectiles';
+    const COSMETICS_CELEBRATIONS = 'cosmetics.celebrations';
+    const COSMETICS_CELEBRATIONS_EFFECTS_BREAK = 'cosmetics.celebrations.effects.break';
+    const COSMETICS_CELEBRATIONS_EFFECTS_KILL = 'cosmetics.celebrations.effects.kill';
+    const COSMETICS_CELEBRATIONS_EFFECTS_WIN = 'cosmetics.celebrations.effects.win';
+    const COSMETICS_ARMOR = 'cosmetics.armor';
+    const COSMETICS_ARMOR_HELMET = 'cosmetics.armor.helmet';
+    const COSMETICS_ARMOR_CHESTPLATE = 'cosmetics.armor.chestplate';
+    const COSMETICS_ARMOR_LEGGINGS = 'cosmetics.armor.leggings';
+    const COSMETICS_ARMOR_BOOTS = 'cosmetics.armor.boots';
+    const COSMETICS_MURDERER = 'cosmetics.murderer';
+    const COSMETICS_MURDERER_KNIFE = 'cosmetics.murderer.knife';
+    const COSMETICS_BEDWARS = 'cosmetics.bedwars';
+    const COSMETICS_BEDWARS_SOUNDS = 'cosmetics.bedwars.sounds';
+    const COSMETICS_SOUNDS_KILLS = 'cosmetics.sounds.kills';
+    const COSMETICS_SKYWARS = 'cosmetics.skywars';
+    const COSMETICS_SKYWARS_CAGES = 'cosmetics.skywars.cages';
+    const COSMETICS_CAPES = 'cosmetics.capes';
 
     const FORMS_HANDLER_REPORTER_NOT_REPORTED = 'forms.handler.reporter.not.reported';
     const FORMS_HANDLER_REPORTER_REPORTED = 'forms.handler.reporter.reported';
@@ -453,6 +483,14 @@ class LangConstants
     const KICK_PROXY = 'kick.proxy';
     const KICK_ALREADY = 'kick.already';
 
+    const PRESENTS_TYPE_PRESENT = 'presents.type.present';
+    const PRESENTS_TYPE_PRESENTS = 'presents.type.presents';
+    const PRESENTS_TYPE_EGG = 'presents.type.egg';
+    const PRESENTS_TYPE_EGGS = 'presents.type.eggs';
+    const PRESENTS_TYPE_PUMPKIN = 'presents.type.pumpkin';
+    const PRESENTS_TYPE_PUMPKINS = 'presents.type.pumpkins';
+    const PRESENTS_TYPE_AMOUNT = 'presents.type.amount';
+    const PRESENTS_FOUND_ALREADY = 'presents.found.already';
     const PRESENTS_FOUND = 'presents.found';
     const PRESENTS_FOUND_ALL = 'presents.found.all';
     const PRESENTS_FOUND_CONGRATS = 'presents.found.congrats';
@@ -558,4 +596,47 @@ class LangConstants
     const MINIGAME_ITEM_MAPS_LORE = 'minigame.item.maps.lore';
     const MINIGAME_ITEM_TEAMS = 'minigame.item.teams';
     const MINIGAME_ITEM_TEAMS_LORE = 'minigame.item.teams.lore';
+
+    const WARNINGS_REASONS_TEAMING_SOLO = 'warnings.reasons.teaming.solo';
+    const WARNINGS_REASONS_TEAMING_CROSS = 'warnings.reasons.teaming.cross';
+    const WARNINGS_REASONS_TEAMING_TROLL = 'warnings.reasons.teaming.troll';
+    const WARNINGS_REASONS_CHAT_DISRESPECT = 'warnings.reasons.chat.disrespect';
+    const WARNINGS_REASONS_CHAT_LANGUAGE = 'warnings.reasons.chat.language';
+    const WARNINGS_REASONS_ADVERTISING_SERVERS = 'warnings.reasons.advertising.servers';
+    const WARNINGS_REASONS_ADVERTISING_CLIENTS = 'warnings.reasons.advertising.clients';
+    const WARNINGS_REASONS_ADVERTISING_WEBSITES = 'warnings.reasons.advertising.websites';
+    const WARNINGS_REASONS_BEHAVIOUR_SKIN = 'warnings.reasons.behaviour.skin';
+    const WARNINGS_REASONS_BEHAVIOUR_CONDUCT = 'warnings.reasons.behaviour.conduct';
+    const WARNINGS_REASONS_BUILD_VIOLENT = 'warnings.reasons.build.violent';
+    const WARNINGS_REASONS_BUILD_ADVERTISING = 'warnings.reasons.build.advertising';
+    const WARNINGS_REASONS_BUILD_EXPLICIT = 'warnings.reasons.build.explicit';
+    const WARNINGS_REASONS_ENFORCEMENT_EVADING = 'warnings.reasons.enforcement.evading';
+    const WARNINGS_REASONS_ENFORCEMENT_THREAT = 'warning.reasons.enforcement.threat';
+    const WARNINGS_REASONS_ENFORCEMENT_DISRESPECT = 'warnings.reasons.enforcement.disrespect';
+    const WARNINGS_REASONS_ENFORCEMENT_JUSTICE = 'warnings.reasons.enforcement.justice';
+    const WARNINGS_REASONS_OTHERS_USERNAME = 'warnings.reasons.others.username';
+
+    const WARNINGS_NOTIFY = 'warnings.notify';
+    const WARNINGS_PERMA_BAN = 'warnings.perma.ban';
+    const WARNINGS_PERMA_MUTE = 'warnings.perma.mute';
+    const WARNINGS_TEMP_BAN = 'warnings.temp.ban';
+    const WARNINGS_TEMP_MUTE = 'warnings.temp.mute';
+
+    const STORE_BALANCE = 'store.balance';
+    const STORE_SELECT = 'store.select';
+    const STORE_PURCHASE = 'store.purchase';
+    const STORE_PURCHASE_UPGRADE = 'store.purchase.upgrade';
+    const STORE_MONEYLESS = 'store.moneyless';
+
+    const REPORTER_ONLINE_PLAYERS = 'reporter.online.players';
+    const REPORTER_REPORT_PLAYER = 'reporter.report.player';
+    const REPORTER_REASON = 'reporter.reason';
+
+    const REPLAY_NOCLIP_ON = 'replay.noclip.on';
+    const REPLAY_NOCLIP_OFF = 'replay.noclip.off';
+    const REPLAY_LOBBY = 'replay.lobby';
+    const REPLAY_PAUSED = 'replay.paused';
+    const REPLAY_PAUSED_ID = 'replay.paused.id';
+    const REPLAY_RESUMED = 'replay.resumed';
+    const REPLAY_RESUMED_ID = 'replay.resumed.id';
 }
