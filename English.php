@@ -309,7 +309,7 @@ class English implements Language
             LangConstants::PARKOUR_ABANDONED => '&aYou abandoned the parkour attempt',
 
             LangConstants::PRESENTS_TYPE_PRESENT => 'Present',
-            LangConstants::PRESENTS_TYPE_PRESENT => 'Presents',
+            LangConstants::PRESENTS_TYPE_PRESENTS => 'Presents',
             LangConstants::PRESENTS_TYPE_EGG => 'Easter Egg',
             LangConstants::PRESENTS_TYPE_EGGS => 'Easter eggs',
             LangConstants::PRESENTS_TYPE_PUMPKIN => 'Pumpkin',
